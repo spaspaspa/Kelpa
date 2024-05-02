@@ -1,0 +1,20 @@
+{
+	"logs": [
+		{
+			"name": "system"
+			"filter": 0,
+			"appenders": [
+				{
+					"outputlevel": 0,
+					"type": 0,
+					"formatter": "console appender I formatter0%d{%Y-%m-%d %H:%M:%S}%T%r%T[%n - %p]%T%f:%l:%c%T%F%T%t|%v%T%m%N"
+				},
+				{
+					"outputlevel": 0,
+					"type": 0,
+					"formatter": "console appender II formatter1%d{%Y-%m-%d %H:%M:%S}%T%r%T[%n - %p]%T%f:%l:%c%T%F%T%t|%v%T%m%N"
+				}
+			] 
+		}
+	]
+}
